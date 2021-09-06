@@ -1,0 +1,72 @@
+/* ======================================== */
+/* ================NAVBAR=================== */
+/* ======================================== */
+
+header {
+  background-color: var(--primaryColor);
+  width: 100%;
+  /* margin-top: 5%; */
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+header.banner-class {
+  background-color: transparent;
+  top: 3vw;
+  position: absolute;
+}
+.logo {
+  width: 13vw;
+}
+nav.navbar {
+  justify-content: center;
+  /* max-width: 80%; */
+  margin: auto;
+}
+a.nav-item.nav-link {
+  font-size: 1vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 20%;
+  text-align: center;
+  letter-spacing: 0.05vw;
+  transition: all 0.3s;
+  display: flex;
+  font-style: italic;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+nav.navbar > .nav-wraper > .collapse > .navbar-nav > a.nav-item.nav-link {
+  color: white;
+}
+a.nav-item.nav-link.current-menu-item {
+  font-weight: 900;
+  color: var(--tertiaryColor);
+  font-style: normal;
+  letter-spacing: 0.1vw;
+}
+a.nav-item.nav-link:hover {
+  font-weight: 900;
+  color: var(--tertiaryColor);
+  letter-spacing: 0.1vw;
+}
+.nav-wraper.nav-wraper-menu {
+  width: 70%;
+}
+.navbar-nav.ml-auto {
+  width: 100%;
+  margin: 3% 0;
+}
+.logo-site-principal-titulo {
+  text-align: center;
+}
+
+/* search */
